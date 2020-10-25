@@ -1,5 +1,13 @@
 
 
+## PWA CRA: 
+```
+create-react-app APP_NAME_HERE --template cra-template-pwa 
+```
+
+
+
+
 ## dependencies 
 ```
 npm i node-sass
