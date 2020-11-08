@@ -13,6 +13,12 @@ create-react-app APP_NAME_HERE --template cra-template-pwa
 npm i node-sass
 
 ```
+If you get a ```Error: Node Sass version 5.0.0 is incompatible with ^4.0.0.```Error just install the below version of node-sass 
+````
+
+npm i node-sass@4.14.1
+````
+
 
 ## dev dependencies 
 
