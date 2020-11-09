@@ -9,15 +9,8 @@ create-react-app APP_NAME_HERE --template cra-template-pwa
 
 
 ## dependencies 
-```
-npm i node-sass
-
-```
-If you get a ```Error: Node Sass version 5.0.0 is incompatible with ^4.0.0.```Error just install the below version of node-sass 
 ````
-
-npm i node-sass@4.14.1 
-npm i normalize.css
+npm i node-sass@4.14.1 normalize.css react-router-dom 
 ````
 
 
