@@ -24,6 +24,14 @@ npm i styled-components polished
 npm i -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks prettier 
 ````
 
+
+## LINTING SCRIPTS 
+```
+  "format": "prettier \"src/**/*.{js,html,scss,jsx,ts,tsx,md}\" --write",
+  "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+  "clean": "rm -rf node_modules && npm i",
+```
+
 ## HTTP LIBRARIES: 
 
 ```
