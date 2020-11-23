@@ -10,15 +10,14 @@ create-react-app APP_NAME_HERE --template cra-template-pwa
 
 ## dependencies 
 ````
-npm i  normalize.css react-router-dom 
+npm i normalize.css react-router-dom  
 ````
 
-## CSS / CSS in JS frameworks
-````
+## CSS / CSS-IN-JS FRAMEWORKS 
+```
 npm i node-sass@4.14.1
 npm i styled-components polished 
-````
-
+```
 
 ## dev dependencies 
 
