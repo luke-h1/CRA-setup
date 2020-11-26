@@ -33,7 +33,26 @@ npm i -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-
 ```
 
 ## HTTP LIBRARIES: 
-
 ```
 npm i axios 
+```
+
+
+## JEST SETUP: 
+
+* dependencies 
+```
+npm i @testing-library/react @testing-library/user-event @testing-library/jest-dom @wojtekmaj/enzyme-adapter-react-17 enzyme jest-enzyme
+```
+
+
+* config 
+```
+import React from 'react';
+import ExampleComponent from './ExampleComponent';
+import Enzyme, {shallow} from 'enzyme';
+import EnzymeAdapter from '@wojtekmaj/enzyme-adapter-react-17';
+
+
+Enzyme.configure({ adapter: new EnzymeAdapter() });
 ```
