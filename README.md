@@ -25,7 +25,7 @@ npm i -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-
 ````
 
 
-## LINTING SCRIPTS 
+## PACKAGE.JSON SCRIPTS 
 ```
     "format": "prettier \"src/**/*.{js,html,scss,jsx,ts,tsx,md}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet --fix",
