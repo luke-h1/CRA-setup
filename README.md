@@ -27,9 +27,13 @@ npm i -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-
 
 ## LINTING SCRIPTS 
 ```
-  "format": "prettier \"src/**/*.{js,html,scss,jsx,ts,tsx,md}\" --write",
-  "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-  "clean": "rm -rf node_modules && npm i",
+    "format": "prettier \"src/**/*.{js,html,scss,jsx,ts,tsx,md}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet --fix",
+    "clean": "rm -rf node_modules && npm i",
+    "jest:update": "jest --silent -u",
+    "jest:interactive": "jest --watch",
+    "stats": "react-scripts build \"--stats\" && webpack-bundle-analyzer build/bundle-stats.json",
+    "serve": "serve build/"
 ```
 
 ## HTTP LIBRARIES: 
