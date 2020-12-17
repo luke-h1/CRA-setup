@@ -17,7 +17,14 @@ npm i node-sass@4.14.1
 npm i styled-components polished 
 ```
 
-## LINTING DEPENDENCIES  
+## LINTING
+
+* setup 
+```
+npx eslint --init (airbnb option)
+```
+
+* dependencies  
 ````
 npm i -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks prettier 
 ````
